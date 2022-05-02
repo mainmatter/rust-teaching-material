@@ -1,4 +1,6 @@
 .bundle/
+_static/
+node_modules/
 target/
 *.html
 .DS_Store

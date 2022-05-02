@@ -1,0 +1,16 @@
+{
+  "name": "rust-teaching-material",
+  "version": "0.0.0",
+  "license": "CC-BY-SA-4.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.js",
+    "watch": "reveal-md markdown/workshop/ -w --theme themes/simplabs.css"
+  },
+  "dependencies": {
+    "execa": "^6.1.0",
+    "globby": "^13.1.1",
+    "reveal-md": "^5.3.2"
+  }
+}
